@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,300i,400,400i,600,600i,700,700i");
+:root {
+  --background: #333;
+  --background-rgb: 51, 51, 51;
+  --pink: #e83e8c;
+  --teal: #20c997;
+  --white: #fff;
+  --primary: #695aa6;
+  --secondary: #333;
+  --success: #1bb74f;
+  --info: #17a2b8;
+  --warning: #ff6d02;
+  --danger: #ec185d;
+  --light: #f8f9fa;
+  --dark: #212529;
+}
+
+.header-title {
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
+.portfolio-card-caption p {
+  color: var(--secondary);
+}
+
+.footer p {
+  color: #fff;
+}
+
+@media (max-width: 991.98px) {
+  .custom-navbar:has(.show) {
+    background: var(--background);
+  }
+  .custom-navbar .nav {
+    background: rgba(var(--background-rgb), 0.7);
+  }
+}
